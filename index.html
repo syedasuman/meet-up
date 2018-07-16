@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Guess the Word</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="script.js"></script>
+</head>
+	<body>
+		<div>
+			<p>Enter Player 1 Name <input type="text" id="text"></p>
+			<p>Enter Player 2 Name <input type="text" id="text"></p>
+			<br>
+			<br>
+			<button onclick="play()">Play</button>
+		</div>
+		<br>
+		<br>
+		<div id="game">
+			<h1 id="Player Name"></h1>
+			<p>Write a Word<input type="text" id="textWord"></p>
+			<button onclick="guess()">Guess</button>
+			<br>
+			<br>
+			<p>Guess a Word <input type="text" id="textGuessWord"></p>
+			<button onclick="check()">Check</button>
+			<br>
+			<br>
+			<p id="result"></p>
+		</div>
+	</body>
+</html>
